@@ -1,0 +1,106 @@
+body{
+    background-color: #3d3017;
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9b7124;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+h1{
+    color: #ffbb00;
+    text-align: center;
+    font-family: fantasy;
+
+}
+.imagenes{
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    background-color: #eee9e2;
+}
+.sub_imagenes {
+    display: inline-block;
+    width: 400px; /* ajusta el ancho según tus necesidades */
+    margin: 0 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 300px;
+    background-color: #9b7124;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .informacion {
+    text-align: center; /* opcional: para centrar los elementos horizontalmente */
+  }
+  
+  .mensaje {
+    float: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 30%; /* ajusta el ancho según tus necesidades */
+    margin: 0 10px; /* opcional: para agregar un margen entre los elementos */
+  }
+
+  /*ESTILO BUTTON*/
+  .btn {
+    background-color: #ffbb00; /* color de fondo */
+    color: white; /* color del texto */
+    border: none; /* borde del botón */
+    padding: 10px 20px; /* espaciado interno del botón */
+    text-align: center; /* alineación del texto */
+    text-decoration: none; /* decoración del texto */
+    display: inline-block; /* tipo de visualización */
+    font-size: 16px; /* tamaño de fuente */
+    margin: 10px; /* margen exterior */
+    cursor: pointer; /* tipo de cursor */
+    border-radius: 4px; /* radio de los bordes */
+  }
+  
+  .btn:hover {
+    background-color: #554024; /* color de fondo al pasar el cursor */
+  }
+  .animacion {
+    animation: cambioColor 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes cambioColor {
+    0% {
+      background-color: #f2f2f2;
+    }
+    50% {
+      background-color: #ddd;
+    }
+    100% {
+      background-color: #f2f2f2;
+    }
+  }
+  
+
+
+  .container {
+    width: auto;
+    height: auto;
+    text-align: right; /* alinea el contenido a la derecha */
+  }
+
+  .formPage{
+    color: #ffbb00; /* color de texto */
+    text-decoration: none; /* quita la decoración predeterminada del enlace */
+    background-color: transparent; /* establece un fondo transparente */
+    border: 2px solid #83673e; /* agrega un borde */
+    padding: 10px 20px; /* agrega un poco de espacio alrededor del texto */
+    border-radius: 5px; /* agrega esquinas redondeadas */
+    transition: all 0.3s ease-in-out;
+  }
+
+  a:hover {
+    color: #fff; /* cambia el color de texto al pasar el mouse */
+    background-color: #554024;; /* cambia el color de fondo al pasar el mouse */
+    border-color: #795b3f; /* cambia el color del borde al pasar el mouse */
+  }
